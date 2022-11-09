@@ -29,16 +29,23 @@
 
         <form action="https://google.com/search" method="get" target="_blank">
             <input type="hidden" name="sitesearch"/>
-            <input type="text" name="q" placeholder="search..." class="search-bar"/>
+            <input type="text" name="q" placeholder="What's on your mind?" class="search-bar"/>
             <input type="submit" value="GO" class="submit-button">
             </form>
 
             <section class="bookmarks">
-                <a href="">
-                <i class="fas fa-envelope"></i>
-                
+                <a href="https://tuanvan3004.github.io/Splash/" target="_blank">
+                <i class="fas fa-user-tie"></i>
                 </a>
-                </section>   
+
+                <a href="http://mail.google.com" target="_blank">
+                <i class="fas fa-mail-bulk"></i>
+                </a>
+
+                <i class="fas fa-sticky-note" onclick="shownote()">
+                </i>
+                 </section> 
+                  
                 
                 <script src="myScripts.js"></script>
             </body>
@@ -47,8 +54,9 @@
             
             <div id="clock"></div>  
 
-<textarea placeholder="Write a note..." id="note" onkeyup="autoSave()"></textarea>
-
+<textarea placeholder="How do you feeling today?" id="note" onkeyup="autoSave()" style="opacity: 1">
+    <i class="fas fa-times-circle exit-note"></i>   
+</textarea>
 <script src="myScripts.js"></script>
 </body>
     </body>

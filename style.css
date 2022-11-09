@@ -1,5 +1,5 @@
 body{
-    margin:o;
+    font-family: sans-serif;
     background-color: #1E567C;
     text-align: center;
 }
@@ -7,6 +7,9 @@ h1{
     font-size: 120px;
     margin-top: 100px;
     text-transform: uppercase;
+}
+a{
+   text-decoration: none;
 }
 #clock {
     position: absolute;
@@ -21,15 +24,16 @@ BOOKMARKS
 .bookmarks{
     padding:30px;
     font-family: sans-serif;
+    clear: both;
  }
- .bookmarks a{
+ .bookmarks i{
     font-size:42px;
     margin:0 20px;
-    color:#ffecc3;
+    color:rgb(238, 223, 5);
     transition:.15s;
     vertical-align: top;
  }
- .bookmarks a:hover{
+ .bookmarks i:hover{
     font-size:72px;
     position:relative;
  }
@@ -50,6 +54,9 @@ POST-IT NOTE (IN CSS)
     left:50px;
     font-family:sans-serif;
    }
+element{
+   opacity: 1;
+}
 
    /*
 =================================================
@@ -77,5 +84,8 @@ form{
     width:15%;
     background:#000;
     color:#FFF;
+ }
+ *{
+   box-sizing: border-box;
  }
  
