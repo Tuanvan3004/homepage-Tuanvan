@@ -54,9 +54,6 @@ POST-IT NOTE (IN CSS)
     left:50px;
     font-family:sans-serif;
    }
-element{
-   opacity: 1;
-}
 
    /*
 =================================================
@@ -89,3 +86,5 @@ form{
    box-sizing: border-box;
  }
  
+ 
+
